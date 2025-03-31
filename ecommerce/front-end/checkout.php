@@ -40,7 +40,7 @@ if (isset($_POST['place_order'])) {
     // Clear cart
     $connection->query("DELETE FROM cart WHERE user_id='$user_id'");
     
-    echo "<script>alert('Order Placed Successfully!'); window.location='user_panel.php';</script>";
+    echo "<script>alert('Order Placed Successfully!'); window.location='home.php';</script>";
 }
 ?>
 <!DOCTYPE html>

@@ -22,8 +22,10 @@ html {
     scroll-padding-top: 5.5rem;
     scroll-behavior: smooth;
 }
-section {
+section.menu#menu {
+    padding-top: 90px;
     padding: 2rem 9%;
+    margin-top: 90px;
 }
 .sub-heading {
     font-size: 2.5rem;
@@ -160,6 +162,10 @@ header .icons #menu-bar {
     position: relative;
     text-align: center;
 }
+h2.product {
+    text-align: center;
+    font-size: xxx-large;
+}
 .dishes .box-container .box .fa-heart,
 .dishes .box-container .box .fa-eye {
     position: absolute;
@@ -277,7 +283,7 @@ header .icons #menu-bar {
 
 .menu .box-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
     gap: 2.5rem;
 }
 .menu .box-container .box{
@@ -285,6 +291,8 @@ header .icons #menu-bar {
     border: .1rem solid rgba(0, 0, 0, .2);
     box-shadow: var(--box-shadow);
     border-radius: .5rem;
+    text-align: center;
+    padding-top: 10px;
    
 }
 .menu .box-container .box .image{
@@ -342,76 +350,15 @@ header .icons #menu-bar {
     padding: .5rem 0;
     line-height: 1.5;
 }
-
+.menu{
+    padding: 2rem 9%;
+    padding-top: 90px;
+}
 .menu .box-container .box .content .price{
     font-size: 2.5rem;
     font-weight: bolder;
     color:var(--green);
     padding: .5rem 0;
-}
-
-.order {
-    overflow: hidden;
-}
-
-.order form{
-    max-width: 80%;
-    border-radius: .5rem;
-    box-shadow: var(--box-shadow);
-    border: .1rem solid rgba(0,0,0,2);
-    background: #fff;
-    padding: 1.5rem;
-    margin:  0 auto;
-
-}
-.order form .inputBox{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.order form .inputBox .input{
-    width: 50%;
-    box-sizing: border-box;
-}
-
-
-.order form .inputBox .input span{
-    display: block;
-    padding: .5rem 0;
-    font-size: 1.5rem;
-    color: var(--light-colour);
-}
-
-.order form .inputBox .input input,
-.order form .inputBox .input textarea{
-    background-color: #eee;
-    border-radius: .5rem;
-    padding: 1rem;
-    font-size: 1.6rem;
-    color: var(--black);
-    text-transform:none;
-    margin-bottom: 1rem;
-  width: 90%;
-  box-sizing: border-box;
-}
-.order form .inputBox .input input:focus,
-.order form .inputBox .input textarea:focus{
-    background-color: #fff;
-    border: .1rem solid var(--green);
-}
-
-.order form .inputBox .input textarea{
-    height: 10rem;
-    max-width: 85%;
-    resize: none;
-}
-
-.order form .inputBox .input .btn {
-    margin-top: 0;
-   
-    cursor: pointer;
-    
 }
 
 
@@ -481,6 +428,7 @@ header .icons #menu-bar {
         padding: 1rem 2rem;
     }
     section {
+        padding-top: 90px;
         padding: 2rem;
     }
     .dishes .box-container .box img{

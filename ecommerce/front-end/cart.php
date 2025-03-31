@@ -30,7 +30,7 @@ if (isset($_POST['remove_item'])) {
 <body>
     <h2>Your Cart</h2>
     <table border="1">
-        <tr><th>Name</th><th>Price</th><th>Quantity</th><th>Total Price</th><th>Action</th></tr>
+        <tr><th>Product Name</th><th>Price</th><th>Quantity</th><th>Total Price</th><th>Action</th></tr>
         <?php while ($row = $cart_items->fetch_assoc()) { ?>
             <tr>
                 <td><?php echo $row['name']; ?></td>

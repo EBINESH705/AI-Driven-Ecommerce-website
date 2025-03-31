@@ -38,7 +38,7 @@ if (isset($_POST['add_to_cart'])) {
             <tr>
                 <td><?php echo $row['name']; ?></td>
                 <td><?php echo $row['price']; ?></td>
-                <td><img src="uploads/<?php echo $row['image']; ?>" width="50"></td>
+                <td><img src="image/<?php echo $row['image']; ?>" width="50"></td>
                 <td>
                     <form method="post">
                         <input type="hidden" name="product_id" value="<?php echo $row['id']; ?>">

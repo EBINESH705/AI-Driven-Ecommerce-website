@@ -49,7 +49,7 @@ $products = $connection->query("SELECT * FROM products");
     
     <h2>Product List</h2>
     <table border="1">
-        <tr><th>ID</th><th>Name</th><th>Price</th><th>Description</th></tr>
+        <tr><th>Product ID</th><th> Product Name</th><th>Price</th><th>Description</th></tr>
         <?php while ($row = $products->fetch_assoc()) { ?>
             <tr>
                 <td><?php echo $row['id']; ?></td>
