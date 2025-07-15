@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;700&display=swap');
+
+:root {
+    --primary: #27ae60;
+    --black: #192a56;
+    --gray: #666;
+    --background: #f8f8f8;
+}
+
+* {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+body {
+    background: var(--background);
+    padding: 20px;
+}
+
+h2, h3 {
+    color: var(--black);
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+form {
+    background: white;
+    padding: 20px;
+    max-width: 400px;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+input, select, textarea, button {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    background: var(--primary);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover {
+    background: var(--black);
+}
+
+table {
+    width: 100%;
+    background: white;
+    margin-top: 10px;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+th {
+    background: var(--black);
+    color: white;
+}
+
+a {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    background: var(--primary);
+    color: white;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+a:hover {
+    background: var(--black);
+}
