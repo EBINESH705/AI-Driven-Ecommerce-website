@@ -47,5 +47,5 @@ A feature-rich e-commerce web application built using **PHP** and **MySQL**, ena
 
 1. **Clone the repository**
    ```bash
-  [ git clone https://github.com/your-username/ecommerce-website.git](https://github.com/EBINESH705/AI-Driven-Ecommerce-website.git)
-   - cd ecommerce-website
+   git clone https://github.com/EBINESH705/AI-Driven-Ecommerce-website.git
+   - cd ecommerce-website ```
